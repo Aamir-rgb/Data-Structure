@@ -1,6 +1,6 @@
 package com.arrays;
 
-public class MaxMinArray {
+public class MaxMinArray1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

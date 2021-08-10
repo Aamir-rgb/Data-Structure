@@ -1,6 +1,6 @@
 package com.arrays;
 
-public class ReverseArray {
+public class ReverseArray2 {
 
 	public static void main(String[] args) {
 		//Brute Force Method For Solving
