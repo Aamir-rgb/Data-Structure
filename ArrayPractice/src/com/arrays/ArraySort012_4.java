@@ -12,6 +12,7 @@ public class ArraySort012_4 {
 		int arr1[] = new int[arr.length];
 		int max = arr[0];
 		int min = arr[0];
+		List<Integer> al = new ArrayList<>();
 
 		// Copy The Value Into Another Array
 		for (int i = 0; i < arr.length; i++) {
@@ -19,14 +20,14 @@ public class ArraySort012_4 {
 			// System.out.println(arr1[i]);
 		}
 
-		// Calculate Maximum Element In Array
+		// Calculate Minimum Element In Array
 		for (int i = 0; i < arr.length; i++) {
-			if (min > arr[1]) {
+			if (min > arr[i]) {
 				min = arr[i];
 			}
 
 		}
-		arr[0] = min;
+		al.add(min);
 
 		// Calculate Maximum Element In Array
 		for (int i = 0; i < arr.length; i++) {
@@ -40,7 +41,7 @@ public class ArraySort012_4 {
 		for (int i = 0; i < arr1.length; i++) {
 			if (arr1[i] != min && arr1[i] != max) {
 				arr[1] = arr1[i];
-				System.out.println(arr1[i]);
+				//System.out.println(arr1[i]);
 			}
 		}
 
