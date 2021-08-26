@@ -8,10 +8,6 @@ import java.util.stream.Stream;
 
 public class UnionAndIntersectionArray5 {
 	
-	
-	
-
-
 	public static void main(String[] args) {
 		int arr1[] = {1,11,14};
 		int arr2[] = {1,9,5};
@@ -22,6 +18,7 @@ public class UnionAndIntersectionArray5 {
 		List<Integer> output2 = IntStream.of(arr2)
 				.boxed().collect(Collectors.toList()).stream().distinct().sorted().collect(Collectors.toList());
 		  System.out.println(output);
+		  
 		  System.out.println(output2);
 		  
 
